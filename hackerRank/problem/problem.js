@@ -26,7 +26,7 @@ function calculateMatrix(matris){
         let num2=(matrix[matrix.length-(1)])[0];
         let num3=(matrix[matrix.length-(1)])[matrix[0].length-(1)];
 
-        //delete
+        // //delete
         matrix[matrix.length-1].splice((matrix[0].length-1),1);
         matrix[matrix.length-1].splice(0,1);
         matrix[0].splice((matrix[0].length-1),1);
