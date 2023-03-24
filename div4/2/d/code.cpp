@@ -21,7 +21,7 @@ int main(){
                 else{
                     suma=suma + numeros[b-1];
                 }
-                cout<<suma<<endl;
+
             }
             if(suma%2==0){
                 cout<<"NO"<<endl;
